@@ -1,0 +1,374 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+body {
+
+    background: rgb(255,176,196);
+    background: radial-gradient(circle, rgba(255,176,196,1) 0%, rgba(246,236,241,1) 100%);
+    margin: 0px;
+}
+
+
+.banner {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navigations {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+}
+
+.navigations a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Pacifico", serif;
+}
+
+.navigations a:hover {
+    color: #fb6f93;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.content img {
+
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.motivationaltext {
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: left; 
+    margin-right: 20px;
+    margin-top: 25px;
+    max-width: 500px; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-family: "pacifico", serif;
+}
+
+
+.motivationaltext p {
+    font-family: "Fraunces";
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+  
+}
+
+.explore {
+    margin-top: 20px;
+   width: 100%;
+    background-color: #fb6f93;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.explore h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "pacifico", serif;
+}
+
+
+.education {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    max-width: 500px; 
+    margin-left: 500px;  
+
+}
+
+
+.education p {
+    font-family: "Fraunces";
+    font-size: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+    }
+
+.education h3{
+    font-family: "pacifico";
+    text-align: center;
+        align-self: center;
+        font-size: 40px;
+        color: black;
+    }
+
+
+.education img {
+    
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+
+.education-text {
+flex: 1;
+font-family: "Fraunces";
+font-size: 15px;
+text-align: left;
+line-height: 1.6;
+
+}
+
+
+.intrest {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+}
+.intrest p{
+
+    font-family: "Fraunces";
+    font-size: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.intrest h4 {
+    
+    font-family: "pacifico";
+    font-size: 40px;
+    color: black;
+
+}
+
+.intrest img {
+   
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.bannerskills {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin-left:400px;
+    margin-bottom: 50px;
+
+}
+.skills h5{
+   
+    font-family: "pacifico";
+    font-size: 40px;
+    color: black;
+}
+
+.skills p {
+    font-family: "Fraunces";
+    font-size: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.skills img {
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.experiences {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 700px;
+   margin-left: 30%;
+   margin-bottom: 50px;
+
+}
+
+.experiences h6{
+    
+    
+    font-family: "pacifico";
+    font-size: 40px;
+    color: black;
+}
+
+
+
+.experiences p {
+    font-family: "Fraunces";
+    font-size: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    margin-top: -50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.experiences img {
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 480px) {
+      .menu-icon {
+        display: block; 
+    }
+
+    .navigations {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 70px; 
+        right: 0;
+        background-color: white;
+        width: 100%; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    .navigations.show {
+        display: flex;
+    }
+
+    .navigations a {
+        padding: 10px 20px; 
+        text-align: center; 
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .navigations a:last-child {
+        border-bottom: none; 
+    }
+  
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .content img {
+
+        width: 300px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    
+    }
+    
+
+    .education {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        max-width: 500px; 
+        margin: 10px;  
+    
+    }
+    
+    .intrest {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px ;
+        max-width: 500px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        max-width: 800px;
+        margin: 20px;
+        
+    
+    }
+    .experiences {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin: 20px;
+        margin-left: 30px;
+      
+     }
+}
